@@ -11,4 +11,4 @@ for i in range(1, T+1) :
                 flag[k] = m[j]  # 길이만큼 m[j]의 값 복사 
             answer += 1 # 변경횟수를  1만큼 더함 
 
-    print("#{} {}".format(i, answer)) # format : 각각의 테스트케이스 및 변경의 총 횟수 출력
+    print("#{} {}".format(i, answer)) # format : 각각의 테스트케이스에 대한 총 변경  출력
